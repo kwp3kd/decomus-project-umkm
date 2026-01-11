@@ -5,13 +5,13 @@
 }
 
 :root {
-    --primary: #fe0000; /* Merah cerah */
-    --secondary: #ffe001; /* Kuning oranye cerah */
+    --primary: #fe0000;
+    --secondary: #ffe001;
     --dark: #b80000;
     --text: #333333;
-    --white: #FFFCF8; /* Putih nggak terlalu putih */
-    --light: #f8eae5; /* Putih ada merah muda */
-    --gold: #ffc107; /* Gold gelap */
+    --white: #FFFCF8;
+    --light: #f8eae5;
+    --gold: #ffc107;
 }
 
 body {
@@ -22,7 +22,6 @@ body {
         linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),
         url('assets/images/New1_nasi_box_dkriuk_2025.jpg') center/cover no-repeat;
     background-size: 1400px 1050px;
-    background-attachment: fixed;
 
     text-align: justify;
     font-size: 16px; 
@@ -52,7 +51,7 @@ section {
 }
 
 .section-title h2 {
-    font-size: 40px; 
+    font-size: 40px;
     display: inline-block;
     padding-bottom: 15px;
     color: var(--primary);
@@ -119,14 +118,14 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 15px 0;
-    min-height: 80px; 
+    min-height: 80px;
 }
 
 .logo {
     display: flex;
     align-items: center;
     text-decoration: none;
-    height: 60px; 
+    height: 60px;
 }
 
 .logo img {
@@ -143,7 +142,7 @@ nav {
 #mainMenu {
     display: flex;
     list-style: none;
-    align-items: center; 
+    align-items: center;
     margin: 0;
     padding: 0;
     height: 100%;
@@ -152,8 +151,8 @@ nav {
 #mainMenu li {
     margin-left: 25px;
     display: flex;
-    align-items: center; 
-    height: 100%; 
+    align-items: center;
+    height: 100%;
 }
 
 #mainMenu li a {
@@ -168,18 +167,17 @@ nav {
     padding: 8px 0;
 }
 
-/* Tombol "Pesan Sekarang" */
 #mainMenu li:last-child a {
-    padding: 6px 16px !important; /* biar nggak ketimpa elemen lain */
-    border-radius: 20px; 
+    padding: 6px 16px !important;
+    border-radius: 20px;
     background-color: transparent;
     border: 2px solid var(--primary);
     color: var(--primary);
     margin-left: 10px;
     text-align: center;
     height: auto;
-    min-height: 38px; 
-    font-size: 13.5px; 
+    min-height: 38px;
+    font-size: 13.5px;
 }
 
 #mainMenu li:last-child a:hover {
@@ -210,10 +208,9 @@ nav {
     width: 100%;
 }
 
-/* Tombol mobile */
 .mobile-menu-btn {
     display: none;
-    font-size: 24px; 
+    font-size: 24px;
     background: none;
     border: none;
     color: var(--primary);
@@ -225,7 +222,6 @@ nav {
     justify-content: center;
 }
 
-/* Hero Section */
 .hero {
     background: 
         linear-gradient(#000000ab, #fe000085),
@@ -242,13 +238,12 @@ nav {
 }
 
 .hero p {
-    font-size: 19.2px; 
+    font-size: 19.2px;
     max-width: 700px;
     margin: 0 auto 30px;
     opacity: 0.9;
 }
 
-/* About Section */
 .about-content {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -258,10 +253,9 @@ nav {
 
 .about-image-column {
     position: sticky;
-    top: 100px; 
+    top: 100px;
 }
 
-/* ABOUT GRID CARD */
 .about-grid-card {
     background: var(--white);
     padding: 35px;
@@ -274,13 +268,13 @@ nav {
 .about-grid-card h3 {
     color: var(--primary);
     margin-bottom: 25px;
-    font-size: 28.8px; 
+    font-size: 28.8px;
     text-align: center;
     line-height: 1.3;
 }
 
 .about-grid-card > p {
-    font-size: 16.8px; /* 1.05rem = 16.8px */
+    font-size: 16.8px;
     margin-bottom: 30px;
     text-align: center;
     color: var(--text);
@@ -321,24 +315,23 @@ nav {
     justify-content: center;
     margin: 0 auto 20px;
     color: var(--white);
-    font-size: 24px; 
+    font-size: 24px;
 }
 
 .feature-card h4 {
     color: var(--dark);
     margin-bottom: 15px;
-    font-size: 20px; 
+    font-size: 20px;
     font-family: 'Playfair Display', serif;
 }
 
 .feature-card p {
-    font-size: 15.2px; 
+    font-size: 15.2px;
     color: var(--text);
     line-height: 1.6;
     margin-bottom: 0;
 }
 
-/* PARTNERSHIP CARD */
 .partnership-card {
     background: var(--white);
     padding: 25px;
@@ -368,7 +361,6 @@ nav {
     font-size: 16px;
 }
 
-/* Evolusi LOGO Card */
 .logo-evolution-sidecard {
     background: var(--white);
     border-radius: 15px;
@@ -392,7 +384,7 @@ nav {
 
 .evolution-image-container {
     padding: 25px;
-    text-align: center; 
+    text-align: center;
 }
 
 .evolution-image-container img {
@@ -400,8 +392,8 @@ nav {
     height: auto;
     border-radius: 8px;
     transition: transform 0.5s ease;
-    display: inline-block; 
-    max-width: 350px; 
+    display: inline-block;
+    max-width: 350px;
 }
 
 .evolution-image-container img:hover {
@@ -412,12 +404,12 @@ nav {
     padding: 20px;
     background: var(--light);
     border-top: 1px solid rgba(254, 0, 0, 0.1);
-    text-align: left; 
+    text-align: left;
 }
 
 .evolution-details p {
     margin-bottom: 15px;
-    font-size: 15.2px; 
+    font-size: 15.2px;
 }
 
 .evolution-details p strong {
@@ -435,7 +427,7 @@ nav {
     display: flex;
     align-items: center;
     gap: 10px;
-    font-size: 14.4px; 
+    font-size: 14.4px;
 }
 
 .evolution-details li i {
@@ -443,7 +435,6 @@ nav {
     min-width: 20px;
 }
 
-/* Products Section */
 .products {
     background-color: var(--white);
 }
@@ -491,7 +482,7 @@ nav {
 }
 
 .product-info h3 {
-    font-size: 20.8px; 
+    font-size: 20.8px;
     margin-bottom: 10px;
     color: var(--primary);
 }
@@ -499,22 +490,21 @@ nav {
 .product-price {
     color: var(--primary);
     font-weight: 700;
-    font-size: 20.8px; 
+    font-size: 20.8px;
     margin-bottom: 15px;
 }
 
-/* Contact Section */
 .contact-content {
     display: flex;
     gap: 50px;
 }
 
 .contact-info {
-    flex: 1;    
+    flex: 1;
 }
 
 .contact-info h3 {
-    font-size: 28.8px; 
+    font-size: 28.8px;
     margin-bottom: 20px;
     color: var(--primary);
 }
@@ -544,7 +534,7 @@ nav {
     justify-content: center;
     margin-right: 15px;
     color: var(--secondary);
-    font-size: 17.6px; 
+    font-size: 17.6px;
 }
 
 .contact-form {
@@ -588,7 +578,6 @@ nav {
     box-shadow: 0 0 0 3px rgba(254, 0, 0, 0.1);
 }
 
-/* Footer Section */
 footer {
     background-color: var(--dark);
     color: var(--white);
@@ -603,7 +592,7 @@ footer {
 }
 
 .footer-column h3 {
-    font-size: 20.8px; 
+    font-size: 20.8px;
     color: var(--white);
     margin-bottom: 20px;
     padding-bottom: 10px;
@@ -686,24 +675,23 @@ footer {
     padding-top: 30px;
     border-top: 1px solid rgba(255, 255, 255, 0.1);
     color: #aaa;
-    font-size: 14.4px; 
+    font-size: 14.4px;
 }
 
 .copyright a {
-    color: #aaa; 
+    color: #aaa;
     text-decoration: none;
     transition: color 0.3s ease;
     display: inline-block;
     margin-top: 5px;
-    font-size: 14.4px; 
+    font-size: 14.4px;
 }
 
 .copyright a:hover {
-    color: var(--secondary); 
+    color: var(--secondary);
     text-decoration: underline;
 }
 
-/* Agar tampilan lebih responsive */
 @media (max-width: 1100px) {
     .about-content {
         gap: 40px;
@@ -711,6 +699,11 @@ footer {
 }
 
 @media (max-width: 992px) {
+    body {
+        background-attachment: scroll;
+        background-size: cover;
+    }
+    
     .about-content, .contact-content {
         grid-template-columns: 1fr;
         gap: 40px;
@@ -728,6 +721,11 @@ footer {
 }
 
 @media (max-width: 768px) {
+    body {
+        background-attachment: scroll;
+        background-size: cover;
+    }
+    
     #mainMenu {
         position: fixed;
         top: 80px;
@@ -764,7 +762,7 @@ footer {
         display: block;
         padding: 15px 0 !important;
         width: 100%;
-        font-size: 17.6px; 
+        font-size: 17.6px;
         justify-content: center;
     }
     
@@ -785,7 +783,7 @@ footer {
     }
     
     .section-title h2 {
-        font-size: 32px; /* 2rem = 32px */
+        font-size: 32px;
     }
     
     .hero {
@@ -818,17 +816,22 @@ footer {
     }
     
     .about-grid-card h3 {
-        font-size: 25.6px; /* 1.6rem = 25.6px */
+        font-size: 25.6px;
     }
 }
 
 @media (max-width: 576px) {
+    body {
+        background-attachment: scroll;
+        background-size: cover;
+    }
+    
     .hero p {
         font-size: 16px;
     }
     
     .section-title h2 {
-        font-size: 27.2px; 
+        font-size: 27.2px;
     }
     
     .logo img {
