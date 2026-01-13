@@ -735,11 +735,9 @@ footer {
     text-decoration: underline;
 }
 
-/* =========================== */
 /* RESPONSIVE DESIGN */
-/* =========================== */
 
-/* Tablet */
+/* Ukuran Tablet */
 @media (max-width: 992px) {
     .about-content, .contact-content {
         grid-template-columns: 1fr;
@@ -767,7 +765,6 @@ footer {
 
 /* Mobile (768px dan lebih kecil) */
 @media (max-width: 768px) {
-    /* Hamburger Menu - diperbaiki agar tidak terlalu lebar */
     #mainMenu {
         position: fixed;
         top: 80px;
@@ -833,7 +830,7 @@ footer {
         z-index: 1001;
     }
     
-    /* Perbaikan ukuran tombol hamburger */
+    /* Ukuran tombol hamburger */
     .mobile-menu-btn {
         width: 35px;
         height: 35px;
